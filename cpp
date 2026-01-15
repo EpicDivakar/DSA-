@@ -439,3 +439,16 @@ int main(){
   cin>>b;
   cout<<"So minimum is"<<minofTwo(a,b);
   return 0;
+
+#include <iostream>
+using namespace std;
+
+void add(int a, int b) {
+    cout << "Sum is: " << a + b << endl;
+}
+
+int main() {
+    add(5, 3);
+    return 0;
+}
+
