@@ -99,6 +99,25 @@ int main(){
     return 0;
 }
 
+//Another example of if-else statement , and this question can actually clear your all thoughts about if-else statement
+
+#include<iostream>
+using namespace std;
+int main(){
+    char characters;
+    int x;
+    cout<<"Please enter your valueee :";
+    cin>>characters;
+    if(characters>='a' && characters<='z'){
+        cout<<"This is a lower case character";
+    }else if (characters>='A' && characters<='Z'){
+        cout<<"This is a upper case character";
+    }else if(x>=0 && x<=9){
+        cout<<"This is a digit";
+    }
+    return 0;
+    
+}
 // Switch case statement
 
 #include<iostream>
