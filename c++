@@ -82,6 +82,22 @@ int main(){
     }else{
         cout<<"You entered a invalid operator";
     }
+//Another if-else question
+
+#include<iostream>
+using namespace std;
+int main(){
+    char characters;
+    cout<<"Please enter your character :";
+    cin>>characters;
+    if(characters=='a' || characters=='e' || characters =='i'
+    ||characters=='o' || characters=='u'){
+        cout<<"This is a vowel";
+    }else{
+        cout<<"This is a consonent";
+    }
+    return 0;
+}
 
 // Switch case statement
 
