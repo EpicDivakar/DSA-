@@ -546,6 +546,23 @@ int main(){
     }
     return 0;
 }
+ //#Pattern 11
+
+#include<iostream>
+using namespace std;
+int main(){
+    int start = 1;
+    for(int i = 1; i<=5; i++){
+        if(i % 2 == 0) start=1;
+        else start = 0;
+        for(int j = 1; j<=i; j++){
+            cout<<start;
+            start = 1 - start;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
 //Need to print all even numbers between 1 to 50
 
 #include<iostream>
